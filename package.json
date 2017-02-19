@@ -1,0 +1,28 @@
+{
+  "name": "oracle",
+  "version": "0.0.0",
+  "description": "Understands you and your needs",
+  "main": "index.ts",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "nodemon": "^1.11.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavg/oracle.git"
+  },
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "author": "Abhinav Garg",
+  "bugs": {
+    "url": "https://github.com/abhinavg/oracle/issues"
+  },
+  "homepage": "https://github.com/abhinavg/oracle#readme"
+}

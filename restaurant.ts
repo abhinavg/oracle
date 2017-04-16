@@ -22,7 +22,7 @@ export class RestaurantStore {
         const result = await this.db.collection(this.collection).insertOne(rest);
         rest._id = result.insertedId.toHexString();
         console.log(rest);
-        return rest
+        return rest;
     }
 
     async get(id: string): Promise<Restaurant|null> {

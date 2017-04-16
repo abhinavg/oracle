@@ -4,13 +4,18 @@
   "description": "Understands you and your needs",
   "main": "index.ts",
   "dependencies": {
+    "@types/mongodb": "^2.1.42",
+    "async": "^2.1.5",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.25",
     "request": "^2.79.0"
   },
   "devDependencies": {
     "@types/node": "^7.0.5",
     "nodemon": "^1.11.0",
     "ts-node": "^2.1.0",
-    "typescript": "^2.1.6"
+    "typescript": "^2.2.1"
   },
   "repository": {
     "type": "git",
